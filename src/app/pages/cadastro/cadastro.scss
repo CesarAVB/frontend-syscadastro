@@ -196,6 +196,10 @@
     background: #f1f5f9;
     border-radius: 12px;
     transition: all 0.25s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
   }
 
   .tipo-info {

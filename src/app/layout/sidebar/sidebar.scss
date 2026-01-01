@@ -18,6 +18,8 @@
   background: linear-gradient(135deg, #2196f3 0%, #1976d2 100%);
   position: relative;
   z-index: 2;
+  gap: 1rem;
+  flex-wrap: nowrap;
 
   ::ng-deep {
     .mat-toolbar {
