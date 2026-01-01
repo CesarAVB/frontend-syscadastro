@@ -18,8 +18,8 @@
       <div class="step-content">
         <form [formGroup]="formDadosPessoais">
           <!-- Tipo de Pessoa -->
+          <h3 class="section-title">Tipo de Pessoa</h3>
           <div class="form-section">
-            <h3 class="section-title">Tipo de Pessoa</h3>
             <div class="tipo-pessoa-grid">
               <div class="tipo-card"
                    [class.selected]="tipoPessoa() === TipoPessoa.FISICA"
@@ -43,8 +43,8 @@
           </div>
 
           <!-- Dados Básicos -->
+          <h3 class="section-title">Dados Básicos</h3>
           <div class="form-section">
-            <h3 class="section-title">Dados Básicos</h3>
             <mat-form-field appearance="outline" class="full-width">
               <mat-label>Nome Completo</mat-label>
               <input matInput formControlName="nome" placeholder="Digite o nome completo">

@@ -80,6 +80,8 @@
   font-weight: 600;
   letter-spacing: 0.5px;
   backdrop-filter: blur(10px);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .sidebar-nav {
@@ -137,12 +139,12 @@
     }
 
     &:hover {
-      background-color: #f8fafc;
-      color: #2196f3;
+      background-color: #e3f2fd;
+      color: #1976d2;
       transform: translateX(4px);
 
       &::before {
-        opacity: 1;
+        opacity: 0;
       }
 
       mat-icon {

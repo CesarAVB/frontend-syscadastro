@@ -108,6 +108,17 @@
 .step-content {
   max-width: 900px;
   margin: 0 auto;
+
+  // Título fora do card
+  > .section-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0 0 1rem 0;
+    letter-spacing: -0.3px;
+    padding-left: 0.5rem;
+    border-left: 4px solid #2196f3;
+  }
 }
 
 // Seções do Formulário
@@ -260,6 +271,7 @@
 ::ng-deep {
   .mat-mdc-form-field {
     width: 100%;
+    margin-bottom: 0.5rem;
 
     .mat-mdc-text-field-wrapper {
       background-color: white;
@@ -296,8 +308,18 @@
       font-size: 0.9375rem;
     }
 
+    .mat-mdc-form-field-subscript-wrapper {
+      margin-top: 0.5rem;
+    }
+
     .mat-mdc-form-field-error {
       font-size: 0.8125rem;
+      margin-top: 0.25rem;
+    }
+
+    .mat-mdc-form-field-hint-wrapper,
+    .mat-mdc-form-field-error-wrapper {
+      padding: 0;
     }
   }
 }
