@@ -50,8 +50,8 @@ import { AuthService } from './../../services/auth';
       /* Adicione flexbox ou grid se precisar de um layout mais complexo aqui */
     }
     .sidebar-collapse-btn {
-      position: absolute;
-      left: -25px;
+      position: fixed;
+      left: calc(250px - 25px);
       top: 50%;
       transform: translateY(-50%);
       z-index: 100;

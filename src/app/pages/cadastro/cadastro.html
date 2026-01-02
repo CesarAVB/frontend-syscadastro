@@ -1,15 +1,10 @@
 <!-- src/app/pages/cadastro/cadastro.html -->
+<app-header
+  titulo="Novo Cadastro de Cliente"
+  subtitulo="Preencha os dados do cliente nas etapas abaixo">
+</app-header>
+
 <div class="cadastro-container">
-  <!-- Header -->
-  <div class="cadastro-header">
-    <button mat-icon-button class="btn-voltar" routerLink="/clientes">
-      <mat-icon>arrow_back</mat-icon>
-    </button>
-    <div class="header-text">
-      <h1>Novo Cadastro de Cliente</h1>
-      <p>Preencha os dados do cliente nas etapas abaixo</p>
-    </div>
-  </div>
 
   <!-- Stepper Horizontal -->
   <mat-stepper [linear]="true" #stepper class="custom-stepper">

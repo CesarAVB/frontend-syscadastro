@@ -5,50 +5,6 @@
   padding: 2rem;
 }
 
-.cadastro-header {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-  background: white;
-  border-radius: 16px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
-  border: 1px solid #e2e8f0;
-
-  .btn-voltar {
-    background-color: #f8fafc;
-    transition: all 0.2s ease;
-
-    &:hover {
-      background-color: #e2e8f0;
-      transform: translateX(-2px);
-    }
-
-    mat-icon {
-      color: #475569;
-    }
-  }
-
-  .header-text {
-    flex: 1;
-
-    h1 {
-      font-size: 1.75rem;
-      font-weight: 700;
-      color: #0f172a;
-      margin: 0 0 0.25rem 0;
-      letter-spacing: -0.5px;
-    }
-
-    p {
-      font-size: 0.9375rem;
-      color: #64748b;
-      margin: 0;
-    }
-  }
-}
-
 // Customização do Stepper
 .custom-stepper {
   background: white;

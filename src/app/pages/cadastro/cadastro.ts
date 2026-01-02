@@ -12,7 +12,8 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
-import { TipoPessoa } from '../../enums/tipo-pessoa.enum'; 
+import { TipoPessoa } from '../../enums/tipo-pessoa.enum';
+import { HeaderComponent } from '../../layout/header/header';
 
 // Importações para máscaras (ngx-mask)
 // Certifique-se de ter instalado: npm install ngx-mask
@@ -34,7 +35,8 @@ import { NgxMaskDirective, provideNgxMask } from 'ngx-mask';
     MatNativeDateModule,
     MatIconModule,
     MatCardModule,
-    NgxMaskDirective
+    NgxMaskDirective,
+    HeaderComponent
   ],
   providers: [provideNgxMask()],
   templateUrl: './cadastro.html',
