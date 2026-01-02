@@ -5,6 +5,7 @@
   height: 100vh;
   width: 100%;
   overflow: hidden;
+  overflow-x: hidden;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
@@ -20,7 +21,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 3rem;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
 
   &::before {
     content: '';
@@ -168,7 +170,8 @@
   padding: 2rem 1.5rem;
   background: #f8fafc;
   position: relative;
-  overflow-y: auto;
+  overflow: hidden;
+  overflow-x: hidden;
 
   &::before {
     content: '';
@@ -580,14 +583,26 @@ form {
 
     input {
       font-size: 0.875rem;
-      padding-left: 8px;
+      padding-left: 0;
     }
 
     .mat-mdc-form-field-icon-prefix {
       font-size: 18px;
       width: 18px;
       height: 18px;
-      margin-right: 12px;
+      margin-right: 16px;
+    }
+
+    .mat-mdc-form-field-infix {
+      padding-left: 0 !important;
+    }
+
+    .mdc-floating-label {
+      left: 34px !important;
+    }
+
+    .mat-mdc-floating-label.mdc-floating-label--float-above {
+      left: 0 !important;
     }
   }
 
