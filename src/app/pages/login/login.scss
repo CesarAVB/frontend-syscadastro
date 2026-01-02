@@ -266,7 +266,7 @@ form {
 
     .mat-mdc-form-field-icon-prefix {
       color: #2563eb;
-      margin-right: 8px;
+      margin-right: 12px;
     }
 
     .mdc-notched-outline__leading,
@@ -580,12 +580,14 @@ form {
 
     input {
       font-size: 0.875rem;
+      padding-left: 8px;
     }
 
     .mat-mdc-form-field-icon-prefix {
       font-size: 18px;
       width: 18px;
       height: 18px;
+      margin-right: 12px;
     }
   }
 
