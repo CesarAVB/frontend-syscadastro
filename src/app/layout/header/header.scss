@@ -47,7 +47,7 @@
   .header-title {
     font-size: 1.75rem;
     font-weight: 700;
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 0 0;
     color: #0f172a;
     letter-spacing: -0.5px;
     background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
@@ -56,18 +56,6 @@
     background-clip: text;
     position: relative;
     display: inline-block;
-
-    // Efeito de brilho animado
-    &::after {
-      content: '';
-      position: absolute;
-      left: 0;
-      bottom: -4px;
-      width: 60px;
-      height: 3px;
-      background: linear-gradient(90deg, #2563eb 0%, transparent 100%);
-      border-radius: 2px;
-    }
   }
 
   .header-subtitle {

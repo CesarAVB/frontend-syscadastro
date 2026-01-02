@@ -56,8 +56,8 @@ import { AuthService } from './../../services/auth';
       transform: translateY(-50%);
       z-index: 100;
       background-color: white;
-      color: #94a3b8;
-      border: 1px solid #e2e8f0;
+      color: #2196f3;
+      border: 1px solid #2196f3;
       transition: all 0.25s ease;
       border-radius: 50%;
       display: flex;
@@ -66,13 +66,13 @@ import { AuthService } from './../../services/auth';
       width: 40px;
       height: 40px;
       padding: 0;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px rgba(33, 150, 243, 0.15);
     }
     .sidebar-collapse-btn:hover {
-      color: #2196f3;
-      background-color: #f0f4f8;
-      border-color: #2196f3;
-      box-shadow: 0 4px 8px rgba(33, 150, 243, 0.15);
+      color: white;
+      background-color: #2196f3;
+      border-color: #1976d2;
+      box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3);
     }
     .sidebar-collapse-btn mat-icon {
       font-size: 20px;
